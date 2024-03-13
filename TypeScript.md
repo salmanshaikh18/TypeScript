@@ -98,3 +98,53 @@ TypeScript is a statically-typed superset of JavaScript that adds static typing 
     - TypeScript comes with excellent tooling support, including integrated development environment (IDE) features such as code completion, type checking, and error highlighting.
 
 In summary, TypeScript enhances JavaScript by adding static typing, interfaces, enums, classes, and other features, making it more suitable for large-scale applications and improving developer productivity. The TypeScript compiler (`tsc`) transpiles TypeScript code into standard JavaScript that can be run in any JavaScript runtime.
+
+
+---
+
+
+## Difference between TypeScript and JavaScript
+
+JavaScript (JS) and TypeScript (TS) share a close relationship, but there are key differences between the two. Here are some of the main distinctions:
+
+1. **Static Typing:**
+   - **JavaScript:** It is a dynamically-typed language, meaning that variable types are determined at runtime. There is no need to declare variable types explicitly.
+   - **TypeScript:** It is a statically-typed language, allowing developers to declare variable types and catch potential errors during development. Type annotations are used to specify types.
+
+2. **Type Annotations:**
+   - **JavaScript:** Variable types are not explicitly declared; the type is inferred at runtime.
+   - **TypeScript:** Variable types can be explicitly declared using type annotations. This enhances code readability and provides better tooling support.
+
+3. **Compile-Time Checking:**
+   - **JavaScript:** Errors related to variable types are discovered at runtime.
+   - **TypeScript:** The TypeScript compiler performs static type checking during development, catching potential errors before runtime.
+
+4. **Object-Oriented Features:**
+   - **JavaScript:** Supports object-oriented programming (OOP) with prototypes and constructor functions.
+   - **TypeScript:** Adds class-based OOP features, interfaces, and access modifiers, making it more suitable for large-scale application development.
+
+5. **Enums:**
+   - **JavaScript:** Does not have built-in support for enums.
+   - **TypeScript:** Supports enums, allowing developers to define a set of named constants.
+
+6. **Interfaces:**
+   - **JavaScript:** Does not have explicit support for interfaces.
+   - **TypeScript:** Introduces interfaces, which define the structure of objects and provide a way to enforce a specific shape for objects.
+
+7. **Union and Intersection Types:**
+   - **JavaScript:** Does not support union and intersection types.
+   - **TypeScript:** Introduces union and intersection types, allowing more flexibility and expressiveness in type definitions.
+
+8. **Generics:**
+   - **JavaScript:** Does not have built-in support for generics.
+   - **TypeScript:** Supports generics, enabling the creation of flexible and reusable code.
+
+9. **Tooling Support:**
+   - **JavaScript:** Limited tooling support for static analysis and code completion.
+   - **TypeScript:** Offers excellent tooling support, including static analysis, code completion, and error checking, enhancing developer productivity.
+
+10. **Compatibility:**
+    - **JavaScript:** Valid JavaScript code is also valid TypeScript code. TypeScript is a superset of JavaScript.
+    - **TypeScript:** TypeScript code must be transpiled into JavaScript before execution. Existing JavaScript code can be gradually migrated to TypeScript.
+
+In summary, TypeScript extends JavaScript by adding static typing, interfaces, enums, classes, and other features. It aims to provide better developer tooling, catch errors earlier in the development process, and enhance the maintainability of large codebases. However, both languages are used for web development, and TypeScript code can be compiled to JavaScript for execution in any JavaScript runtime.
