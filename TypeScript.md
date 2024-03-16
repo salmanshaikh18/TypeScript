@@ -1,6 +1,28 @@
-## TypeScript
+## What is TypeScript
 
 - TypeScript is JavaScript with syntax for types.
+
+
+---
+
+
+## Why TypeScript
+
+- Avoid bugs in development
+
+- Suggestions
+
+- Increase development speed
+
+- Autocompletion
+
+- Additional features (interfaces, generics, enums, alias)
+
+
+---
+
+
+## TypeScript
 
 TypeScript is a statically-typed superset of JavaScript that adds static typing and other features to the language. It is developed and maintained by Microsoft. Here are some key concepts and features of TypeScript:
 
@@ -148,3 +170,6 @@ JavaScript (JS) and TypeScript (TS) share a close relationship, but there are ke
     - **TypeScript:** TypeScript code must be transpiled into JavaScript before execution. Existing JavaScript code can be gradually migrated to TypeScript.
 
 In summary, TypeScript extends JavaScript by adding static typing, interfaces, enums, classes, and other features. It aims to provide better developer tooling, catch errors earlier in the development process, and enhance the maintainability of large codebases. However, both languages are used for web development, and TypeScript code can be compiled to JavaScript for execution in any JavaScript runtime.
+
+
+---
