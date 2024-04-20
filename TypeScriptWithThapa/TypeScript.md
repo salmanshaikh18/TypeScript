@@ -4,6 +4,8 @@
 
 TypeScript is a superset of JavaScript, which means any valid JavaScript code is also valid TypeScript code.
 
+TypeScript catches errors at compile time instead of runtime, which makes dubugging and reduces the likelihood of bugs in production.
+
 `TypeScript` = JavaScript + More Features
 
 ## Advantage of TypeScript
@@ -18,4 +20,27 @@ TypeScript is a superset of JavaScript, which means any valid JavaScript code is
 
 - Autocompletion
 
-- Additional features (interfaces, generics, enums, alias)
+- Additional features (interfaces, generics, enums, alias, tuples)
+
+
+## Disadvantages of TypeScript
+
+- Browser does not support TypeScript
+- The browser can't run TypeScript
+
+## Install TypeScript
+
+```bash
+npm i -g typescript
+```
+
+## Difference between the .ts and .tsx extensions 
+
+The main difference betwee the `.ts` and `.tsx` extensions is that the `.tsx` extension is used for TypeScript files that include `JSX` sysntax, while the `.ts` extension is used for regular TypeScript files that do not contain `JSX`
+
+
+## Compile TypeScript
+
+```bash
+tsc
+```
